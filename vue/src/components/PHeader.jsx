@@ -2,7 +2,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-class Header extends React.Component {
+class PHeader extends React.Component {
     render () {
       return <div>
        <nav class="navbar navbar-expand-lg navbar-dark bg-dark borderbot">
@@ -12,11 +12,8 @@ class Header extends React.Component {
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#1">How it works <span class="sr-only">(current)</span></a>
-                            </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="private">Private Policy</a>
+                                <a class="nav-link" href="/">How it works</a>
                             </li>
                         </ul>
                     </div>
@@ -25,5 +22,4 @@ class Header extends React.Component {
 
     }
   }
-  export default Header;
-  
+  export default PHeader;
